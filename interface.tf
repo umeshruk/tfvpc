@@ -27,3 +27,4 @@ output "public_subnet_id" {
    output "cidr" {
      value = "${aws_vpc.tfb.cidr_block}"
 }
+
